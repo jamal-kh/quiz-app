@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="black">
+    <title>quiz</title>
+    <link rel="stylesheet" href="quiz.css">
+    <link rel="stylesheet" href="all.min.css">
+</head>
+<body>
+    <article class="app">
+        <header>
+            <div class="many"></div>
+            <div class="timer"></div>
+        </header>
+        <section class="question">
+        </section>
+        <section class="buttons">
+            <input type="button" value="" class="btn" onclick="rightOrNot(event)">
+            <input type="button" value="" class="btn" onclick="rightOrNot(event)">
+            <input type="button" value="" class="btn" onclick="rightOrNot(event)">
+            <input type="button" value="" class="btn" onclick="rightOrNot(event)">
+        </section>
+        <div class="change-quis">
+            <a href="#" type="button" class="previous" onclick="previousq()"><i class="fa-solid fa-arrow-left"></i></a>
+            <a href="#" type="button" class="next" onclick="nextq()"><i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+    </article>
+    <div class="alert">
+        <div class="alertin">
+            <button onclick="start()">start</button>
+        </div>
+    </div>
+    <script src="quiz.js"></script>
+    <script src="all.min.js"></script>
+</body>
+</html>
